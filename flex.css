@@ -1,0 +1,231 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px; /* Taille plus grande pour une meilleure lisibilité */
+}
+
+/* Header */
+.porfolio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    height: 40px; /* Taille plus grande de l'image du logo */
+}
+
+nav button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+nav button:hover {
+    background-color: #555;
+}
+
+/* Section Présentation */
+.presentation {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f1f1f1;
+}
+
+.presentation h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.presentation p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.presentation button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.presentation button:hover {
+    background-color: #555;
+}
+
+/* Section Projets */
+.contenair-projects {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; /* Pour rendre les éléments flexibles sur petits écrans */
+}
+
+.project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    flex: 1; /* Permet aux projets de prendre une taille égale */
+    max-width: 30%; /* Chaque projet occupe jusqu'à 30% de la largeur */
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.project p:last-child {
+    font-size: 1.5rem; /* Taille des emojis plus grande */
+}
+
+/* Section Me Contacter */
+.contact-section {
+    padding: 40px 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.contact-section button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.contact-section button:hover {
+    background-color: #555;
+}
+
+/* Section Réseaux Sociaux */
+.social-media-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.social-media-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-media-icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.social-media-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Section Compétences */
+.competence-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.competence-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.competence-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Pour que les compétences s'ajustent en fonction de l'écran */
+    gap: 20px;
+}
+
+.competence {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.competence h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.competence p {
+    font-size: 1rem;
+    color: #555;
+}

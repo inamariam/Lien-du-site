@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;  /* Doux fond gris clair */
+    color: #444;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Ombre légère */
+    text-align: center;
+}
+
+/* Title and Subtitle */
+.title {
+    font-size: 2.5rem;
+    color: #e74c3c;  /* Rouge doux */
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;  /* Police élégante */
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #7f8c8d;  /* Gris neutre */
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+/* Section Headings */
+h2 {
+    font-size: 1.8rem;
+    color: #2980b9;  /* Bleu vif pour les titres */
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+/* Text Presentation */
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Compétences */
+.competences ul {
+    list-style: none;
+    padding: 0;
+}
+
+.competences ul li {
+    font-size: 1.1rem;
+    background-color: #ecf0f1;  /* Fond gris clair */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    color: #34495e;
+}
+
+/* Image Section */
+.image-section img {
+    max-width: 200px;
+    border-radius: 50%;  /* Rendre l'image ronde */
+    margin-top: 20px;
+    border: 5px solid #e74c3c;  /* Bordure rouge doux */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Button */
+.contact .btn {
+    display: inline-block;
+    padding: 12px 30px;
+    margin-top: 30px;
+    background-color: #e74c3c;  /* Rouge doux */
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.contact .btn:hover {
+    background-color: #c0392b;  /* Rouge plus foncé au survol */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
